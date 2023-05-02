@@ -1,0 +1,90 @@
+.Intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 900px;
+    background: white;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.IntroMe_Header {
+    color: rgba(39, 36, 36, 0.921);
+    font-size: 55px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    margin-left: 200px;
+    align-content: flex-start;
+    margin-top: 60px;
+}
+
+.IntroMe_Para {
+    color: rgba(39, 36, 36, 0.921);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    align-self: flex-start;
+    justify-content: space-between;
+    font-family: cursive;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.Image2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+    width:650px;
+    align-self: flex-end;
+    justify-content: space-between;
+    margin-right: 25px;
+    justify-self: flex-start;
+    border: 12px solid rgb(70, 145, 152);
+}
+
+@media screen and (max-width: 1200px) {
+    .Intro {
+      display: flex;
+      margin-top: 100px;
+      flex-direction: row;
+      width:100%;
+      height: calc(100vh - 619px);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .IntroMe_Header {
+      display: flex;
+      margin-top: 300px;
+      flex-direction: column;
+      width:100%;
+      height: calc(100vh - 577px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .IntroMe_Para {
+      display: flex;
+      flex-direction:column;
+      margin-top: 0px;
+      width:100%;
+      height: calc(100vh - 377px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Image2 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 0;
+      height: calc(100vh - 77px);
+    }
+}

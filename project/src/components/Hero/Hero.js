@@ -9,11 +9,7 @@ function Hero() {
             <img src={ header_image} alt="badge" className="Image1"/>
             <h1 className="title">My journey into coding as a fortysomething mum of 2 kids</h1>
         </div>
-        <div className="caption">
-            {/* <h3>Hey, I'm Clare!</h3> */}
-            
-        </div>
-        </div>
+    </div>
     );
 }
 

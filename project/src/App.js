@@ -1,14 +1,16 @@
 
-import Hero from './components/HeaderImage/Hero';
+import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
+import Intro from './components/Intro/Intro';
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <NavBar name="Clare Coates"/>
       <div className="container">
       </div>
       <Hero />
+      <Intro />
     </div>
     
   );

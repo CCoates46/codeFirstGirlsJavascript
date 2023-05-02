@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import './NavBar.css';
 
-function NavBar() {
+function NavBar(props) {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
     return (
         <nav className="navigation">
             <a href="/" className="brand-name">
-                Clare Coates
+                {props.name}
             </a>
             <button className="hamburger"
             onClick={() => {
