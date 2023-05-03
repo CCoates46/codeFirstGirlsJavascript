@@ -1,12 +1,10 @@
 .Intro {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: flex-end;
     flex-wrap: wrap;
-    height: 900px;
+    height: 800px;
     background: white;
-    border-bottom: 1px solid black;
     margin-top: 10px;
     max-width: auto;
     margin-right: auto;
@@ -20,8 +18,9 @@
     font-family: cursive;
     display: flex;
     justify-content: space-between;
-    align-self: flex-start;
-    margin-left: 200px;
+    max-width: 600px;
+    align-self: center;
+    margin-left: 0px;
     align-content: flex-start;
     margin-top: 60px;
 }
@@ -31,7 +30,8 @@
     display: flex;
     flex-wrap: wrap;
     font-size: 25px;
-    align-self: flex-start;
+    max-width: 600px;
+    align-self: center;
     justify-content: space-between;
     font-family: cursive;
     margin-left: 15px;
@@ -56,7 +56,7 @@
       margin-top: 100px;
       flex-direction: row;
       width:100%;
-      height: calc(100vh - 619px);
+      height: calc(100vh - 519px);
     }
 }
 @media screen and (max-width: 1200px) {
@@ -64,8 +64,9 @@
       display: flex;
       margin-top: 300px;
       flex-direction: column;
+      margin-left: 10px;
       width:100%;
-      height: calc(100vh - 577px);
+      height: calc(100vh - 277px);
     }
 }
 
@@ -75,7 +76,7 @@
       flex-direction:column;
       margin-top: 0px;
       width:100%;
-      height: calc(100vh - 377px);
+      height: calc(100vh - 77px);
     }
 }
 
