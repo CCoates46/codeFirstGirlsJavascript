@@ -1,9 +1,10 @@
+import { Routes, Route } from "react-router-dom";
 
-import Hero from './components/Hero/Hero';
+import Home from './pages/Home';
 import NavBar from './components/NavBar/NavBar';
-import Intro from './components/Intro/Intro';
-import SocialFollow from './components/Footer/SocialFollow';
-import ScrollToTop from './components/ScrollUp/ScrollToTop';
+import AboutMe from './pages/AboutMe';
+import Stories from './pages/Stories'
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -11,10 +12,13 @@ function App() {
       <NavBar name="Coding like a mother"/>
       <div className="container">
       </div>
-      <Hero />
-      <Intro />
-      <SocialFollow />
-      <ScrollToTop />
+     
+      <Routes>
+          <Route path="Home" element={<Home />} />
+          <Route path="AboutMe" element={<AboutMe />} />
+          <Route path="Stories" element={<Stories />} />
+          <Route path="Contact" element={<Contact />} />
+      </Routes>
     </div>
     
   );

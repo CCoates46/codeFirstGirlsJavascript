@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from 'react';
 import './NavBar.css';
 
@@ -32,16 +33,16 @@ function NavBar(props) {
                     isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                 <ul>
                     <li>
-                        <a href="/home">Home</a> 
+                        <Link to="/home">Home</Link> 
                     </li>
                     <li>
-                        <a href="/about me">About Me</a>
+                        <Link to="/aboutMe">About Me</Link>
                     </li>
                     <li>
-                        <a href="/stories">Stories</a>
+                        <Link to="/stories">Stories</Link>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -50,3 +51,4 @@ function NavBar(props) {
 }
 
 export default NavBar
+
