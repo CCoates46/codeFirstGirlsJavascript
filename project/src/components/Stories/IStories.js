@@ -2,7 +2,7 @@ import React from 'react';
 
 import './IStories.css';
 import Snippet from '../Snippets/Snippets';
-import FunFact from '../../images/FunFact.webp';
+import FunFact2 from '../../images/FunFact2.jpeg';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMedium } from "@fortawesome/free-brands-svg-icons";
@@ -22,7 +22,7 @@ function IStories() {
             className="Medium" target="_blank" rel="noreferrer"> 
             <FontAwesomeIcon icon={ faMedium } size="5x" />
             </a>
-        <img src={ FunFact } alt='FunFact' className='Image4' />
+        <img src={ FunFact2 } alt='FunFact' className='Image4' />
         </div>
     </div>
     );
