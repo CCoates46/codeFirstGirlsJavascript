@@ -41,9 +41,6 @@ function NavBar(props) {
                     <li>
                         <Link to="/stories">Stories</Link>
                     </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
                 </ul>
             </div>
         </nav>

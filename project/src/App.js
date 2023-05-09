@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import NavBar from './components/NavBar/NavBar';
 import AboutMe from './pages/AboutMe';
 import Stories from './pages/Stories'
-import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,10 +13,10 @@ function App() {
       </div>
      
       <Routes>
+          <Route exact path='/' element={<Home />} />
           <Route path="Home" element={<Home />} />
           <Route path="AboutMe" element={<AboutMe />} />
           <Route path="Stories" element={<Stories />} />
-          <Route path="Contact" element={<Contact />} />
       </Routes>
     </div>
     
