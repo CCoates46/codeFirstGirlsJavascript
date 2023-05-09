@@ -14,7 +14,7 @@ function AboutMeIntro() {
             A couple of words about my professional life: I am an SDET and an advocate for Quality.
             I have spent most of my career as a manual software tester and post covid I decided to embark 
             on a journey into coding in order to progress my career. <br />
-            Almost 18 monmths ago I could not read or write a line of code but having studied an online Javascript
+            Almost 18 months ago I could not read or write a line of code but having studied an online Javascript
             course on Udemy in my spare time, alongside having the opportunity to pair program daily with experienced 
             engineers in my current company, I have been able to write integration tests and automated UI tests. <br />
             <br />
