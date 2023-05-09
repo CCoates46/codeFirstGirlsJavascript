@@ -1,0 +1,24 @@
+.Counter {
+    background-color: grey;
+    height: 900px;
+}
+
+.Counter_text {
+    color:purple;
+    font-size: 135px;
+    border-top: 1px;
+    border: 12px solid rebeccapurple;
+    margin-top: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 35px;
+    background-color: black;
+}
+
+.Counter_button {
+    color: white;
+    font-size: 85px;
+    background-color: black;
+    width: 150px;
+}
+
